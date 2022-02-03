@@ -29,6 +29,43 @@ Text representation for KSUID is 27 characters long, and 28 characters long with
 zYS4GmVK9Hn2JHPota8SAOBQsPgR
 ```
 
+## Usage
+API:
+```js
+generate() // ASC KSUID
+generate(true) // DESC xKSUID
+generate(true,new Date('2022-01-01').getTime()) // DESC xKSUID with custom timestamp
+```
+
+
+Via CDN:
+```html
+<script>
+  import {generate} from 'https://cdn.jsdelivr.net/npm/xksuid@0.0.1/src/index.js'
+</script>
+```
+
+
+Via NPM:
+```sh
+npm install xksuid
+```
+
+For browser:
+```js
+import {generate} from 'xksuid'
+```
+
+For NodeJS ESM:
+```js
+import {generate} from 'xksuid/src/index.node.mjs'
+```
+
+For NodeJS CommonJS:
+```js
+const {generate} = await import('xksuid/src/index.node.mjs')
+```
+
 
 ## Benchmark
 ```sh
