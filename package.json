@@ -1,0 +1,21 @@
+{
+  "name": "xksuid",
+  "version": "0.0.1",
+  "description": "Extended K-Sortable UID for browser & NodeJS 16+",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node tests/index.js",
+    "benchmark": "node benchmark.js"
+  },
+  "keywords": [
+    "ksuid",
+    "crypto",
+    "uuid"
+  ],
+  "author": "ValeriaVG <mail@valeriavg.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "tiny-jest": "^1.2.1"
+  }
+}
