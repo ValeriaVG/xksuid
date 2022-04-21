@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "description": "Extended K-Sortable UID for browser & NodeJS 16+",
   "type": "module",
-  "main": "./src/index.js",
+  "main": "./src/index.node.mjs",
+  "browser": "./src/index.js",
+  "types": "./src/index.d.ts",
   "homepage": "https://github.com/ValeriaVG/xksuid#readme",
   "repository": {
     "type": "git",
