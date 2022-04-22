@@ -31,7 +31,7 @@ export function randomBytes(): Uint8Array;
  * @param timestamp ms
  * @returns 27 chars KSUID or 28 chars for xKSUID
  */
-export function generate(desc: boolean, timestamp: number): string;
+export function generate(desc?: boolean, timestamp?: number): string;
 
 /**
  * Parses (x)KSUID string to timestamp and random part
