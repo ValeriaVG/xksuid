@@ -44,7 +44,7 @@ Via CDN:
 
 ```html
 <script>
-  import {generate} from 'https://cdn.jsdelivr.net/npm/xksuid@0.0.1/src/index.js'
+  import {generate} from 'https://cdn.jsdelivr.net/npm/xksuid@0.0.3/src/index.js'
 </script>
 ```
 
