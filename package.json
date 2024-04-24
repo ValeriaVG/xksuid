@@ -1,6 +1,6 @@
 {
   "name": "xksuid",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Extended K-Sortable UID for browser & NodeJS 16+",
   "type": "module",
   "main": "./src/index.node.mjs",
