@@ -9,7 +9,7 @@
   "homepage": "https://github.com/ValeriaVG/xksuid#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ValeriaVG/xksuid.git"
+    "url": "git+ssh://git@github.com/ValeriaVG/xksuid.git"
   },
   "bugs": {
     "url": "https://github.com/ValeriaVG/xksuid/issues"
